@@ -24,8 +24,7 @@ contract XCounterUC is UniversalChanIbcApp {
 
     /**
      * @dev Sends a packet with the caller's address over the universal channel.
-     * @param destPortAddr The address of the destination application.
-     * @param channelId The ID of the channel to send the packet to.
+         * @param channelId The ID of the channel to send the packet to.
      * @param timeoutSeconds The timeout in seconds (relative).
      */
     function sendUniversalPacket(address destPortAddr, bytes32 channelId, uint64 timeoutSeconds) external {
