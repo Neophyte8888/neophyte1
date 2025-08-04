@@ -16,3 +16,18 @@ node_modules
 # Foundry files
 /out
 /cache_forge
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.ipynb_checkpoints/
+
+# Machine Learning Models and Data
+models/
+data/
